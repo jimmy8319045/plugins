@@ -43,11 +43,13 @@ If your service works with custom URLs, just leave this empty.
 }
 ```
 <br />
+
 ```json
 {
     "serviceURL": "https://{teamID}.slack.com"
 }
 ```
+
 * `string` **serviceName**<br/>
 Display name of the service.
 * `array` **popup**<br/>
@@ -62,6 +64,7 @@ Array with regular expressions to open external links in a popup instead of a ne
     ]
   }
 ```
+
 * `boolean` **hasTeamID**<br />
 Is this a team based service? If true, the interface to add the service will require a team identifier. e.g. `[teamID]`.slack.com
 * `boolean` **hasNotificationSound**<br />
